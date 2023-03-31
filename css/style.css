@@ -1,0 +1,13 @@
+:root {
+  --primary: #54bca4;
+  --font: #1a2c24;
+  --yellow: #f8d95f;
+}
+* {
+  margin: 0;
+  pading: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
