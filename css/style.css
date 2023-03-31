@@ -18,3 +18,30 @@ body {
   color: var(--font);
   max-height: 2000px;
 }
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  algin-items: center;
+  pading: 1.4rem 7%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  z-index: 9999;
+}
+.nav-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.nav-logo span {
+  color: var(--yellow);
+}
+.navbar .nav-menu a {
+  color: var(--font);
+  display: inline-block;
+  font-size: 0.9rem;
+  margin: 1rem 1rem;
+}
