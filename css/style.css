@@ -1,7 +1,8 @@
 :root {
-  --primary: #54bca4;
-  --font: #1a2c24;
-  --yellow: #f8d95f;
+  --primary: #71dfe7;
+  --font: #1b1d1b;
+  --yellow: #ffaf00;
+  --pink: #ff506f;
 }
 * {
   margin: 0;
@@ -10,4 +11,10 @@
   outline: none;
   border: none;
   text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: var(--font);
+  max-height: 2000px;
 }
