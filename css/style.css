@@ -74,16 +74,38 @@ body {
 }
 .img img {
   pading: 1rem 5rem;
-  width: 400px;
+  width: 100%;
   height: 500px;
   object-fit: contain;
   margin-top: 50px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   margin-top: 100px;
 }
-.label-hero .a {
-}
 .label-hero .hell {
   margin-top: 130px;
+  color: var(--pink);
+  font-size: 24px;
+}
+.label-hero .a {
+  width: 500px;
+  font-size: 50px;
+}
+.butoon-cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: var(--yellow);
+  border-radius: 32px;
+}
+
+.icons {
+  margin-top: 2rem;
+}
+.iconsf {
+  color: var(--pink);
+  width: 20px;
+  height: 20px;
 }
