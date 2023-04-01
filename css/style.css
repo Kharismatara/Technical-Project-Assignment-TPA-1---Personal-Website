@@ -258,9 +258,8 @@ body {
   color: var(--pink);
   margin-top: 1rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
-
 .row-kontak {
   display: flex;
 }
@@ -297,4 +296,37 @@ body {
   background-color: var(--primary);
   color: white;
   cursor: pointer;
+}
+/*about */
+.aboutme {
+  margin-top: 5rem;
+}
+.label-about {
+  text-align: center;
+  font-size: 24px;
+  color: var(--pink);
+  font-weight: 700;
+}
+.conabout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 7%;
+  margin-right: 3rem;
+}
+.conabout img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+  filter: drop-shadow(10px 10px 4px var(--primary));
+}
+.conabout p {
+  width: 400px;
+  margin-left: 1.4rem;
+}
+.label-skil {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 24px;
+  color: var(--yellow);
 }
