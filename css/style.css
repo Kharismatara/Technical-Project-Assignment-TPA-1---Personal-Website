@@ -100,12 +100,45 @@ body {
   background-color: var(--yellow);
   border-radius: 32px;
 }
-
-.icons {
-  margin-top: 2rem;
+/*servies*/
+.label-servies {
+  width: 300px;
+  padding: 1.4rem;
 }
-.iconsf {
+.label-servies h3 {
   color: var(--pink);
-  width: 20px;
-  height: 20px;
+}
+.servies-layanan {
+  margin-top: 5rem;
+}
+.butoon-servies {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: var(--yellow);
+  border-radius: 32px;
+}
+.container {
+  display: flex;
+  justify-content: space-evelyn;
+}
+
+.layanan {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.card {
+  justify-content: space-around;
+  margin-right: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.content {
+  padding: 2rem 7%;
+  text-align: center;
+}
+.content a {
+  margin-top: 3rem;
 }
