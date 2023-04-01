@@ -22,18 +22,20 @@ body {
   display: flex;
   justify-content: space-between;
   algin-items: center;
-  pading: 1rem 1rem;
+  pading: 1.4rem 7%;
   background-color: #ffffff;
   position: fixed;
   top: 0;
-  left: 2rem;
-  right: 2rem;
+  left: 0;
+  right: 0;
   z-index: 9999;
+  border-bottom: 1px solid var(--primary);
 }
 .nav-logo {
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary);
+  padding: 0rem 1rem;
 }
 .nav-logo .ta-logo {
   color: var(--yellow);
@@ -141,4 +143,40 @@ body {
 }
 .content a {
   margin-top: 3rem;
+}
+/*testimonial*/
+
+.testimonial {
+  margin-top: 3rem;
+}
+.labelts {
+  margin-top: 8rem;
+  padding: 3rem 7%;
+  color: var(--yellow);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+.testimonial-card {
+  display: flex;
+  justify-content: center;
+}
+.cardts {
+  justify-content: center;
+  margin-right: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+.cardts img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.contentts {
+  padding: 2rem 7%;
+  text-align: center;
+  width: 350px;
+  height: 400px;
+  font-size: 14px;
 }
