@@ -16,14 +16,13 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: var(--font);
-  max-height: 2000px;
 }
 /*navbar*/
 .navbar {
   display: flex;
   justify-content: space-between;
   algin-items: center;
-  pading: 1.4rem 7%;
+  pading: 1rem 1rem;
   background-color: #ffffff;
   position: fixed;
   top: 0;
@@ -36,12 +35,49 @@ body {
   font-weight: 700;
   color: var(--primary);
 }
-.nav-logo span {
+.nav-logo .ta-logo {
   color: var(--yellow);
 }
+.nav-logo .mu-logo {
+  color: var(--pink);
+}
+
 .navbar .nav-menu a {
   color: var(--font);
   display: inline-block;
   font-size: 0.9rem;
   margin: 1rem 1rem;
+}
+
+.navbar .nav-menu a:hover {
+  color: var(--pink);
+}
+
+.navbar .nav-menu a::after {
+  content: "";
+  display: block;
+  pading-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linier;
+}
+.navbar .nav-menu a:hover::after {
+  transform: scaleX(0.5);
+}
+/*hero */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img img {
+  pading: 1rem 5rem;
+  width: 400px;
+  height: 500px;
+  object-fit: contain;
+  margin-top: 50px;
+  object-fit: cover;
+  object-position: center;
 }
