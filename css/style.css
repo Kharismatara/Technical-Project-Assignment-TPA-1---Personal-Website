@@ -69,7 +69,7 @@ body {
 .hero {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 .img img {
@@ -80,4 +80,10 @@ body {
   margin-top: 50px;
   object-fit: cover;
   object-position: center;
+  margin-top: 100px;
+}
+.label-hero .a {
+}
+.label-hero .hell {
+  margin-top: 130px;
 }
