@@ -180,3 +180,65 @@ body {
   height: 400px;
   font-size: 14px;
 }
+/*footer*/
+.footer {
+  margin-top: 8rem;
+  background-color: #158088;
+  color: white;
+}
+.footerP {
+  display: flex;
+  padding: 3rem 7%;
+  justify-content: space-around;
+}
+
+.label-footer .personal {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.label-footer h6 {
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+}
+.icons-footer {
+  margin-top: 1rem;
+}
+.icons-footer .iconsf {
+  color: white;
+}
+.halaman {
+  font-size: 24px;
+  font-weight: 700;
+}
+.halaman .lkf {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.kerjasama-footer {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.kerjasama-footer .kf {
+  display: block;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.akhirfooter {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  border-top: 1px solid #ffffff;
+  padding: 1.4rem 7%;
+}
