@@ -373,3 +373,140 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+/*aratikel*/
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.card-content h2 {
+  color: #000;
+  margin: 3rem 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.category__01 {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+/***************************           Cards            *******************************/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* see notes below */
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 1rem;
+}
+
+.card {
+  /*height: 200px;*/
+  /*background: red;*/
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  color: #5d5e5e;
+  margin-top: 5rem;
+  margin-left: 2rem;
+} /* li item */
+
+.thumbnail img {
+  height: 135px;
+}
+
+.card-content {
+  font-size: 0.75rem;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.panel.card-panel .panel-header {
+  background-color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  height: 25px !important;
+}
+
+.panel.card-panel .panel-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 2px solid #e7e7e7;
+  margin: 0.5rem 0 0;
+  min-height: 30px;
+  font-size: 1rem;
+  color: var(--yellow);
+}
+
+.category {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  color: #fff;
+  background: #e74c3c;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.category__01 {
+  background-color: #50c6db;
+}
+
+.category__02 {
+  background-color: #5d5e5e;
+}
+
+.category__03 {
+  background-color: #51bb7b;
+}
+
+.category__04 {
+  background-color: #f47820;
+}
+
+.category__05 {
+  background-color: #8350a0;
+}
+
+.post-meta {
+  margin-top: 0.5rem;
+}
+
+.comments {
+  margin-left: 0.5rem;
+}
+.aratikelkami h2 {
+  margin-top: 5rem;
+  color: var(--pink);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
