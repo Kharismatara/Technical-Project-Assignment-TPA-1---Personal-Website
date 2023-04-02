@@ -358,3 +358,18 @@ body {
   font-weight: 700;
   text-align: center;
 }
+.ketaboutskills {
+  width: 400px;
+  margin-left: 3rem;
+}
+.ketaboutskills h3 {
+  color: var(--pink);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.ketaboutskills p {
+  color: var(--font);
+  font-size: 16px;
+  font-weight: 300;
+}
