@@ -304,7 +304,7 @@ body {
 .label-about {
   text-align: center;
   font-size: 24px;
-  color: var(--pink);
+  color: var(--font);
   font-weight: 700;
 }
 .conabout {
@@ -318,15 +318,43 @@ body {
   width: 300px;
   height: 300px;
   object-fit: scale-down;
-  filter: drop-shadow(10px 10px 4px var(--primary));
 }
-.conabout p {
+.conabout .ketabout {
   width: 400px;
   margin-left: 1.4rem;
 }
-.label-skil {
-  margin-top: 3rem;
-  text-align: center;
+.ketabout h3 {
+  color: var(--pink);
   font-size: 24px;
-  color: var(--yellow);
+  font-weight: 700;
+  text-align: center;
+}
+.ketabout p {
+  color: var(--font);
+  font-size: 16px;
+  font-weight: 300;
+}
+.conaboutedukation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 7%;
+  margin-right: 3rem;
+  background-color: #9cdee3;
+  width: 100%;
+}
+.conaboutedukation img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+.conaboutedukation .ketabout {
+  width: 400px;
+  margin-right: 2rem;
+}
+.ketabout h3 {
+  color: var(--pink);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
 }
