@@ -524,3 +524,17 @@ footer {
 .editor {
   margin-top: 4rem;
 }
+/*project*/
+.label-project h2 {
+  margin-top: 5rem;
+  color: var(--pink);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.label-project p {
+  color: var(--pink);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
